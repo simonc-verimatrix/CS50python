@@ -155,11 +155,24 @@
 
 #Using the contiue to skip a case
 
-data = [1,2,0,5,10]
-a = 1
-for x in data:
-    if x ==0:               #If x is 0, skip and continue
-        continue            
-    a = a*x             
-    print(a)
-print("The value of a is {}".format(a))
+# data = [1,2,0,5,10]
+# a = 1
+# for x in data:
+#     if x ==0:               #If x is 0, skip and continue
+#         continue            
+#     a = a*x             
+#     print(a)
+# print("The value of a is {}".format(a))
+
+
+#NOTE: Libraries: Libraries are codes other people are written 
+#that you can use. These libraries or modules are mainly re-usability
+# of codes.
+#Random.py is an example of such modules.
+#Import keyword is used to import modules in your code to be used.
+
+#NOTE: sys.exit() that comes with the import sys parkage is used to
+#terminate the program when the condition matches
+
+#NOTE break is used to break out of a loop and continue the rest of the 
+#program.
